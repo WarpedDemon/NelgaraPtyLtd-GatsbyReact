@@ -1,0 +1,371 @@
+* { padding: 0; margin: 0;  font-family: helvetica, sans-serif;}
+html { overflow-x: hidden;}
+body { background-color: #fffdfa; }
+
+.spacer{
+  height: 150px;
+}
+
+.bottomspacer{
+  height: 150px;
+}
+
+.ContentTitleClass{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.row{
+  flex-basis: 33.3%;
+  flex-direction: row;
+  height: 30px;
+
+}
+
+.column{
+  flex-basis: 33.3%;
+  flex-direction: column;
+  height: 100px;
+}
+
+.copyrightText {
+  color: grey;
+}
+.FooterImage {
+  margin-top: 8px;
+  width: 50px;
+  height: 50px;
+}
+#FooterText{
+  padding-top: 15px;
+  padding-left: 15px;
+  width:250px;
+  height:250px;
+  color:black;
+}
+
+#FooterText a{
+  color:black;
+  text-decoration: none;
+}
+
+#Footer {
+  /* position: absolute; */
+  display:flex;
+  flex-wrap: wrap;
+  background-color: #f6f4f5;
+  height: auto;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  border-top: 1.5px solid black;
+}
+
+#Links {
+  margin-right: 40px;
+  text-decoration: none;
+  text-decoration-line: none;
+  display: inline-block;
+  float: right;
+}
+
+.scrollButton {
+  position: absolute;
+  top: 92%;
+  left: 48.75vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.35);
+  border: 1px solid black;
+  transition: all 0.4s ease;
+}
+.scrollButton:hover {
+  background-color: rgba(0,0,0,0);
+}
+.scrollButton span {
+  color: white;
+  font-size: 16px;
+  margin-left: 1.3vw;
+  margin-top: 1.4vw;
+}
+
+.MainContentClass {
+  min-width: 250px;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: auto;
+  width: 80vw;
+  margin-left: 10vw;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.MainContentClass img{
+  color: black;
+  margin-top: 7vh;
+  border-radius: 5px;
+  display: inline-block;
+  height: 40vh;
+  width: 40vw;
+  vertical-align: middle;
+  background-color: #ebe0c6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.MainContentClass h1{
+  padding-left: 35px;
+  padding-bottom: 5px;
+  margin-top: 7vh;
+}
+
+.MainContentText{
+  color: black;
+  min-width: 250px;
+  height: auto;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  padding:15px;
+}
+
+.MainContentClass:first-child {
+}
+
+.MainContentBoxClass {
+  color: black;
+  border-radius: 5px;
+  font-size:1vmax;
+  min-width: 250px;
+  height: auto;
+  float:right;
+  display: inline-block;
+  width: 40vw;
+  max-width: 55vw;
+  height:auto;
+  background-color:#f8f8ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.MainContentClass p {
+  max-width: 50vw;
+}
+
+#videoContainer {
+  width: 100%;
+  height: auto;
+}
+#videoContainer video {
+  object-fit: cover;
+  z-index: 0;
+  position: absolute;
+  top: 100px;
+}
+
+#Banner {
+
+  width: 100vw;
+  min-height: 200px;
+  top: 150px;
+  margin-bottom: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+#slider {
+  overflow: hidden;
+  z-index: 10;
+}
+.BackgroundImage {
+  position: absolute;
+  z-index: -1;
+}
+#ImgOne {
+}
+#BannerId {
+  z-index: 1;
+  position: absolute;
+  margin-top: 40vh;
+  margin-left: 14vw;
+  color: #eeeeee;
+  font-size: 3vmax;
+  padding: 15px;
+  background-color: rgba(0,0,0,0.65);
+}
+
+#Logo {
+  /*
+  width:125px;
+  height:125px;
+  margin-left: -635px;
+  margin-top: -10px;
+  */
+  float: left;
+  margin-left: 1vw;
+  margin-top: 7px;
+}
+
+#Header {
+
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  background-image: #EFE8D8;
+  background-repeat: repeat;
+  z-index: 11;
+}
+.HeaderDark {
+  background-color: #1b1b1b !important;
+  z-index: 10 !important;
+  color: white !important;
+
+}
+/* Controls turning the nav bar components to dark mode. */
+.ServicesDark,
+.AboutDark,
+.PeopleDark,
+.IndustriesDark {
+  background-color: #141414 !important;
+  color: #f3f3f3 !important;
+  background-color: rgba(0,0,0,0.5) !important;
+
+}
+.LightSwitchDark:hover {
+  color: white !important;
+  background-color: black !important;
+  border-color: white !important;
+}
+
+.LightSwitchDark {
+  color: black !important;
+  background-color: white !important;
+  border-color: black !important;
+}
+#LightSwitch span {
+  margin-top: 18px;
+  margin-left: 19px;
+}
+#LightSwitch:hover {
+  background-color: black;
+  color: white;
+}
+#LightSwitch {
+  transition: all 0.3s ease;
+  border-radius: 50px;
+  border: 2px solid black;
+  width:50px;
+  height:50px;
+  float: left;
+  margin-top: 22px;
+  margin-left: 25px;
+}
+
+.Nav_ContainerDark {
+
+}
+.HamburgerDark {
+  color: white !important;
+}
+.Title_TextDark {
+  color: white !important;
+}
+#Title {
+  color:black;
+  font-size: 24px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-top: 16px;
+  margin-left: 25px;
+  text-decoration: none;
+}
+#Title_Text {
+  color:black;
+  font-size: 3vmax;
+  text-decoration: none;
+}
+#Hamburger {
+  color: black;
+  display: none;
+}
+#Nav_Container{
+  display: none;
+}
+
+.NavDark {
+  color: white !important;
+}
+#Nav {
+  height: 30vmax;
+  width: auto;
+  display: inline-block;
+  float: right;
+  margin-right: 75px;
+  margin-top: 25px;
+  color: black;
+  z-index: 11;
+
+}
+#Nav a:hover {
+  border-bottom: 4px solid black;
+  background-color: rgba(205,205,205,1);
+  border-radius: 15px;
+}
+#Nav a {
+  transition: all 0.3s ease;
+  display: inline-block;
+  height: 50px;
+  background-color: rgba(255,255,255,0.75);
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-decoration: none;
+  color: inherit;
+}
+#Nav a li p {
+  text-align:center;
+  padding-top: 18px;
+}
+#Nav a li {
+  display: inline-block;
+  list-style: none;
+}
+
+.ProfileContentClass {
+  min-width: 250px;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: auto;
+  width: 80vw;
+  margin-left: 10vw;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.ProfileContentClass img {
+  color: black;
+  margin-top: 7vh;
+  border-radius: 5px;
+  display: inline-block;
+  height: 50vh;
+  width: 30vw;
+  vertical-align: middle;
+  float: left;
+  background-color: #ebe0c6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ProfileContentClass h1{
+  padding-left: 35px;
+  padding-bottom: 5px;
+  margin-top: 7vh;
+}

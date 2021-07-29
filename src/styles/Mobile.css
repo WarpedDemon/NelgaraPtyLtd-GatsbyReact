@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1528px) {
+  body{
+    width:0;
+  }
+
+  .spacer{
+    height: 0px;
+  }
+
+  .bottomspacer{
+    height: 50px;
+  }
+
+  #BannerId{
+    margin-left:0vw;
+    margin-top: 33vh;
+  }
+
+  #videoContainer {
+    width: 100vw;
+  }
+
+  #Title {
+    margin-top: 27px;
+    margin-left: 35px;
+  }
+
+  .MainContentClass img{
+    width: 100%;
+  }
+  .column {
+    height: auto;
+    flex-basis: 100%;
+  }
+  .row {
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .MainContentText{
+    color: black;
+    min-width: 250px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding:15px;
+  }
+
+  .MainContentBoxClass{
+    min-width: 100% !important;
+    font-size: 20px;
+    float: none !important;
+  }
+  .MainContentClass {
+    margin: auto;
+    width: 100vw;
+  }
+  .MainContentBoxClass h3 {
+    text-align: center;
+  }
+
+  .scrollButton{
+    width: 5.5vw;
+    height: 5.5vw;
+  }
+
+  #Footer{
+    width: 100vw;
+  }
+
+  .ProfileContentClass img{
+    width: 100vw;
+    height: 50vh;
+  }
+
+  /* Navbar changes */
+  #Hamburger {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 37px;
+    font-size: 40px;
+  }
+  #Nav {
+    display: none;
+    margin-right: 10px;
+    margin-left: 100vw;
+    margin-top: 0px;
+  }
+  #Nav li {
+    display: block;
+    width: 100px;
+    float: right;
+  }
+  #Nav_Container {
+    display: inline-block;
+    float: right;
+    width: 75px;
+    height: 75px;
+    margin-top: -10px;
+  }
+  #Title_Text{
+    font-size: 15px;
+  }
+  .MainContentText{
+    min-width: 210px;
+  }
+
+  .ProfileContentClass{
+    width: 100vw;
+    margin-left: 0vw;
+    margin-top: 0px;
+  }
+
+  .gradient-left{
+    height: 80% !important;
+  }
+
+  .gradient-right{
+    height: 80% !important;
+  }
+
+  .terms{
+    width:90vw;
+    margin-top: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .termscon{
+    width:90vw;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
