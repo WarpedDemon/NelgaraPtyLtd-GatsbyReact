@@ -23,9 +23,13 @@ export default function MasterLayout({ children, title }) {
                 <meta name="google-site-verification" content="txgKmeRnG--tbzmjs6dsxKpFw-x3RCL2t_jCDioBfDo" />
                 <meta name="google-site-verification" content="xkHDb2_zgTzNpDumgrN7J39GOzcAilbnu3ZnP9G_Q8A" />
                 <meta property="title" content={title+" | Nelgara Pty Ltd"}/>
-                <meta name="description" content="Nelgara Pty Ltd is an Australian commercial management consulting firm
+                <title>{title+" | Nelgara Pty Ltd"}</title>
+                <meta name="description"
+                content="
+                Nelgara Pty Ltd is an Australian commercial management consulting firm
                 that leverages its significant industry experience to develop and apply
-                best practice solutions."/>
+                best practice solutions.
+                "/>
                 <meta name="keywords" content="HTML, CSS, XML, JavaScript, Php, Nelgara, Nick, Noonan, Commercial, Construction, Services, Peter, Hooks, Katherine, James, Australian, Australia, Perth, Kallaroo, nelgara, australia, contruction services perth"/>
                 <meta name="author" content="James Nicholas Noonan"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
