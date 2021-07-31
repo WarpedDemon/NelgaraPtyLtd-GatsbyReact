@@ -27,7 +27,7 @@ export default function Navbar() {
             changeBackground(false);
             currentlyDark = false;
         }
-      
+
     }
     function changeBackground(active)
     {
@@ -77,10 +77,10 @@ export default function Navbar() {
 
     return (
         <div id="Header">
-            <Link to="/#" id="top"></Link>
-            <Link to="/#"><img src="../../img/logo.png" id="Logo" alt="logo.png"></img></Link>
+            <Link to="/" id="top"></Link>
+            <Link to="/"><img src="../../img/logo.png" id="Logo" alt="logo.png"></img></Link>
             <span onClick={OnLightClick} id="LightSwitch" className=""><span className="fas fa-lightbulb"></span></span>
-            <h2 id="Title" className=""><Link to="/index" id="Title_Text" className=""> Nelgara Pty Ltd </Link></h2>
+            <h2 id="Title" className=""><Link to="/" id="Title_Text" className=""> Nelgara Pty Ltd </Link></h2>
             <div id="Nav_Container" className="">
                 <Hamburger />
             </div>

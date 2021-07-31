@@ -47,16 +47,13 @@ export default function Home() {
   ];
 
   const indexContentImages = ["../img/project2.png", "../img/road2.png", "../img/startup.jpg", "../img/train.png", "../img/office.jpg", "../img/bridge.png", "../img/bigminner.png", "../img/desal.png", "../img/miningtruck.png", "../img/openpit.png", "../img/room.jpg"];
-  const indexContentTitles = ["What We Do", "Expertise", "Locations"] 
+  const indexContentTitles = ["What We Do", "Expertise", "Locations"]
 
   return (
-    <MasterLayout title="Home Page">
+    <MasterLayout title="Commercial Project Management Solutions">
       <ContentBlockLayoutRight title={indexContentTitles[0]} contentText={indexContentTexts[0]} imgSource={"../" +indexContentImages[0]}></ContentBlockLayoutRight>
       <ContentBlockLayoutLeft title={indexContentTitles[1]} contentText={indexContentTexts[1]} imgSource={"../" +indexContentImages[1]}></ContentBlockLayoutLeft>
       <ContentBlockLayoutRight title={indexContentTitles[2]} contentText={indexContentTexts[2]} imgSource={"../" +indexContentImages[2]}></ContentBlockLayoutRight>
     </MasterLayout>
   )
 }
-
-
-

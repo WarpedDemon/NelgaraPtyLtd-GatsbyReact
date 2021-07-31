@@ -73,7 +73,7 @@ export default function services() {
     const servicesContentImages = ["../img/project2.png", "../img/road2.png", "../img/startup.jpg", "../img/train.png", "../img/office.jpg", "../img/bridge.png", "../img/bigminner.png", "../img/desal.png", "../img/miningtruck.png", "../img/openpit.png", "../img/room.jpg"];
 
     return (
-        <MasterLayout title="Commercial Project Management Solutions">
+        <MasterLayout title="Commercial Construction Services">
             <ContentBuilder titles={servicesContentTitles} texts={servicesContentTexts} imgs={servicesContentImages}></ContentBuilder>
         </MasterLayout>
     )
