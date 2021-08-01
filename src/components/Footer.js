@@ -6,7 +6,7 @@ export default function Footer() {
         <div id="Footer">
             <div className="column">
                 <div className="row">
-                    <Link to="/index"><img src="img/logo.png" className="FooterImage"></img></Link>
+                    <Link to="/"><img src="https://www.nelgara.com.au/img/logo.png" className="FooterImage"></img></Link>
                 </div>
                 <div className="row">
                 </div>
