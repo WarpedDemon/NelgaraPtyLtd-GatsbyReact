@@ -130,65 +130,11 @@ export default function people() {
             Paul Brown
             T +61 (08) 0410 173 184
             paulbrown.nelgara@outlook.com
-      `,
-      `
-        Jason has a Degree in Construction Management and a Bachelor of
-        Commerce. He is a Senior Consultant with Nelgara working often
-        in the position of contracts manager or contracts specialist
-        for clients. He has 15 years’ experience working on construction,
-        civil, infrastructure and engineering projects. Jason has managed
-        contracts in excess of $500m on multibillion dollar resource
-        expansion projects, for major clients including Chevron, BHPBIO
-        and Rio Tinto. Jason has worked for the all major parties
-        involved in such endeavours being EPCM, the client, major
-        contractor’s and subcontractors.
-        <br><br>
-        His expertise includes tender negotiations, pre and post-award
-        contract management, assessment of claims for costs and EOT’s,
-        quantity estimating, procurement, and cost planning. Jason is a
-        strong leader and has managed a number of successful teams
-        throughout his career, and he has helped to develop the skills
-        and progress the careers of a number of his direct reports.
-        <br><br>
-        Accomplishments (In his own words):
-        <br><br>
-            •	Commercial Building Project: A project assigned to myself
-                was under extreme budget pressure upon award - with a
-                margin of 0.5%. Through using strategic procurement
-                strategies I managed to procure circa $45,000,000 worth
-                of trades and raise the margin to 4.5% and created a
-                1.5% trade contingency for the project.
-            <br><br>
-            •	Major Infrastructure Project: I was tasked with the
-                procurement of a mechanical services (HVAC) package, the
-                initial Tender submissions were well in excess of target
-                budget. By developing a procurement strategy and working
-                with all key stakeholders to value manage the design the
-                net result was an overall saving of $10m on the initial
-                Tender pricing.
-            <br><br>
-            •	Major Resource Project: In February 2009 major flooding
-                of the MESA A in the Western Australis North West project
-                occurred. I was responsible for the contract administration
-                of the project this involved managing the contractors on
-                site to perform works on the fly. I needed to ensure
-                that resources were sourced immediately as requested by
-                the construction manager. I was responsible for data
-                collation of all correspondence (incoming and outgoing)
-                to ensure that Insurance claims (approximately $5million per day)
-                were paid and ensuring all commercial obligations were met
-                by the EPCM in an environment that had not been encountered before.
-        <br><br>
-        Please Contact;
-        <br><br>
-        Jason Winter
-        T +61 (08) 434 333 161
-        Nelgara@outlook.com
       `
     ];
 
-    const peopleContentTitles = ["Nicholas (Nick) Noonan", "Kathryn (Kate) Noonan", "Peter (Pete) Hooks", "Paul Brown", "Jason Winter"];
-    const peopleContentImgs = ["../img/nicknoonan.jpg", "../img/defaultAccountIcon.jpg", "../img/peterhooks.png", "../img/paulbrown.jpg", "../img/jasonwinter.png"];
+    const peopleContentTitles = ["Nicholas (Nick) Noonan", "Kathryn (Kate) Noonan", "Peter (Pete) Hooks", "Paul Brown"];
+    const peopleContentImgs = ["../img/nicknoonan.jpg", "../img/defaultAccountIcon.jpg", "../img/peterhooks.png", "../img/paulbrown.jpg"];
 
     return (
     <MasterLayout title="Our Team">

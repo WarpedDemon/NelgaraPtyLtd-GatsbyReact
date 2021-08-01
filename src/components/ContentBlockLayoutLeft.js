@@ -10,7 +10,7 @@ export default function ContentBlockLayout({imgSource, title, contentText}) {
                 <p className="MainContentText" dangerouslySetInnerHTML={{__html: contentText}}>
                 </p>
             </div>
-            <img className="ContentImage doRight" src={imgSource} />
+            <img className={"ContentImage doRight " + title} src={imgSource} />
         </div>
     )
 }

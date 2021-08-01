@@ -2,6 +2,18 @@
 html { overflow-x: hidden;}
 body { background-color: #fffdfa; }
 
+.Brown{
+  min-height: 85vh;
+}
+
+.Hooks{
+  min-height: 65vh;
+}
+
+.Noonan{
+  min-height: 80vh;
+}
+
 .spacer{
   height: 150px;
 }
