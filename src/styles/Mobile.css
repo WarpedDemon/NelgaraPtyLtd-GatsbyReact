@@ -75,6 +75,10 @@
     height: 50vh;
   }
 
+  .MainContentClass p {
+      max-width: 75vw;
+  }
+
   /* Navbar changes */
   #Hamburger {
     display: block;

@@ -85,10 +85,10 @@ export default function Navbar() {
                 <Hamburger />
             </div>
             <ul id="Nav">
-                <Link to="/services" id="Services"><li className="animate fadeInLeft wow" data-wow-delay="0.25s"><b><p>Services</p></b></li></Link>
-                <Link to="/industries" id="Industries"><li className="animate fadeInLeft wow" data-wow-delay="0.50s"><b><p>Industries</p></b></li></Link>
-                <Link to="/contactus" id="About"><li className="animate fadeInLeft wow" data-wow-delay="0.75s"><b><p>Contact Us</p></b></li></Link>
-                <Link to="/people" id="People"><li className="animate fadeInLeft wow" data-wow-delay="1s"><b><p>People</p></b></li></Link>
+                <Link to="https://www.nelgara.com.au/services" id="Services"><li className="animate fadeInLeft wow" data-wow-delay="0.25s"><b><p>Services</p></b></li></Link>
+                <Link to="https://www.nelgara.com.au/industries" id="Industries"><li className="animate fadeInLeft wow" data-wow-delay="0.50s"><b><p>Industries</p></b></li></Link>
+                <Link to="https://www.nelgara.com.au/contactus" id="About"><li className="animate fadeInLeft wow" data-wow-delay="0.75s"><b><p>Contact Us</p></b></li></Link>
+                <Link to="https://www.nelgara.com.au/people" id="People"><li className="animate fadeInLeft wow" data-wow-delay="1s"><b><p>People</p></b></li></Link>
             </ul>
         </div>
     )
