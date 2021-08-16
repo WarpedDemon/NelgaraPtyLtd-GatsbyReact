@@ -6,7 +6,7 @@ export default function Footer() {
         <div id="Footer">
             <div className="column">
                 <div className="row">
-                    <Link to="/"><img src="https://www.nelgara.com.au/img/logo.png" className="FooterImage"></img></Link>
+                    <Link to="/" aria-label="Nelgara logo"><img alt="footer_logo" src="https://www.nelgara.com.au/img/logo.png" className="FooterImage"></img></Link>
                 </div>
                 <div className="row">
                 </div>
@@ -19,7 +19,7 @@ export default function Footer() {
                     <h2><Link to="/index" style={{ textDecoration: 'none' }}> Nelgara Pty Ltd </Link></h2>
                 </div>
                 <div className="row">
-                    <h6 className="copyrightText">Copyright &#169 Nelgara Pty Ltd 2021 </h6>
+                    <div className="copyrightText">Copyright &copy Nelgara Pty Ltd 2021 </div>
                 </div>
                 <div className="row">
                     <Link to="/index" id="terms">Terms and Conditions</Link>

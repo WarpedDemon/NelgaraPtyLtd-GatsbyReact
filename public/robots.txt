@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.nelgara.com.au/sitemap/sitemap_0.xml
+Host: https://www.nelgara.com.au

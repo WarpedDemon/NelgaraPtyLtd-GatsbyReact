@@ -3,7 +3,6 @@ import Navbar from "./Navbar"
 import Footer from "./Footer"
 import Banner from "./Banner"
 import {Helmet} from "react-helmet";
-import DocumentMeta from 'react-document-meta';
 
 
 import "../styles/LandingPage.css"
@@ -18,7 +17,11 @@ export default function MasterLayout({ children, title }) {
     return (
 
         <div className="MasterLayout">
-            <Helmet>
+            <Helmet
+                htmlAttributes={{
+                    lang: 'en',
+                }}
+            >
 
                 <meta charset="utf-8"/>
                 <meta name="google-site-verification" content="txgKmeRnG--tbzmjs6dsxKpFw-x3RCL2t_jCDioBfDo" />
@@ -26,6 +29,7 @@ export default function MasterLayout({ children, title }) {
                 <meta property="title" content={title+" | Nelgara Pty Ltd"}/>
                 <title>{title+" | Nelgara Pty Ltd"}</title>
 
+                <meta name="description" content="Nelgara Commercial Construction Company Website"/>
                 <meta name="keywords" content="HTML, CSS, XML, JavaScript, Php, Nelgara, Nick, Noonan, Commercial, Construction, Services, Peter, Hooks, Katherine, James, Australian, Australia, Perth, Kallaroo, nelgara, australia, contruction services perth"/>
                 <meta name="author" content="James Nicholas Noonan"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>

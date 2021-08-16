@@ -32,6 +32,8 @@ export default function Hamburger() {
     }
 
     return (
-        <span id="Hamburger" className="fa fa-bars" onClick={ToggleMenu}></span>
+        <div onKeyDown={ToggleMenu} onClick={ToggleMenu} tabIndex={-1} role="button" aria-label="Navigation drop down button">
+            <span id="Hamburger" className="fa fa-bars" ></span>
+        </div>
     )
 }

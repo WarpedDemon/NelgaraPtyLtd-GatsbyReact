@@ -1,0 +1,31 @@
+Start Time: 9:43PM (Lighthouse Revisions)
+
+    SEO Changes
+    -----------
+    1) Added a lang attribute to the html tag.
+    2) Added a meta description tag to the helmet
+    3) Added multiple missing alt properties for image tags.
+    4) Added a robots.txt with policy to allow bot crawling via google.
+    5) Added a rudamentary sitemap - please update this.
+    Old Rating: 83%
+    New Rating: 100%
+
+    Accessibility
+    -------------
+    1) Updated Navbar, Hamburger, Footer and other various component buttons to adhere to react
+       accessibility standards. I.E - Making sure they have aria labels if they
+       don't have a text label, and ensuring they have onKeyDown events as opposed
+       to just click events.
+    2) Fix out of order / skipped levels of header tags.
+
+    Old Rating: 80%
+    New Rating: 100%
+
+    Best Practises
+    ---------------
+    
+    Unfortunately I couldn't make any revisions to improve this score.
+    I will need you to provide me with higher resolution images / logos 
+    for this score to be 100%.
+
+End Time: 10:53PM

@@ -25,6 +25,8 @@ body { background-color: #fffdfa; }
 .ContentTitleClass{
   padding-left: 10px;
   padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .row{
@@ -41,7 +43,9 @@ body { background-color: #fffdfa; }
 }
 
 .copyrightText {
-  color: grey;
+  color: #111111;
+  font-size: 12px;
+  font-weight: bold;
 }
 .FooterImage {
   margin-top: 8px;
