@@ -16,13 +16,13 @@ export default function Footer() {
 
             <div className="column">
                 <div className="row">
-                    <h2><Link to="/index" style={{ textDecoration: 'none' }}> Nelgara Pty Ltd </Link></h2>
+                    <h2><Link to="https://www.nelgara.com.au/" style={{ textDecoration: 'none' }}> Nelgara Pty Ltd </Link></h2>
                 </div>
                 <div className="row">
-                    <div className="copyrightText">Copyright &copy Nelgara Pty Ltd 2021 </div>
+                    <div className="copyrightText">Copyright Of Nelgara Pty Ltd 2021 </div>
                 </div>
                 <div className="row">
-                    <Link to="/index" id="terms">Terms and Conditions</Link>
+                    <Link to="https://www.nelgara.com.au/" id="terms">Terms and Conditions</Link>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ export default function Footer() {
                 <div className="row">
                 </div>
                 <div className="row">
-                    <Link to="/index">TEL: +61 (0)434 33 161</Link>
+                    <Link to="tel: +61 (0)434 33 161">+61 (0)434 33 161</Link>
                 </div>
                 <div className="row">
                 </div>
