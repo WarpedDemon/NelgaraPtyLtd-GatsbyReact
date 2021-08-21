@@ -29,8 +29,8 @@ export default function Footer() {
             <div className="column">
                 <div className="row">
                 </div>
-                <div className="row"> 
-                    <a to="tel:+61(0)43433161">+61 (0)434 33 161</a>
+                <div className="row">
+                    <a href="tel:+61(0)43433161">+61 (0)434 33 161</a>
                 </div>
                 <div className="row">
                 </div>
