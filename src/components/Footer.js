@@ -22,7 +22,7 @@ export default function Footer() {
                     <div className="copyrightText">Copyright Of Nelgara Pty Ltd 2021 </div>
                 </div>
                 <div className="row">
-                    <Link to="https://www.nelgara.com.au/" id="terms">Terms and Conditions</Link>
+                    <Link to="https://www.nelgara.com.au/img/Terms.pdf" id="terms">Terms and Conditions</Link>
                 </div>
             </div>
 
