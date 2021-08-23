@@ -1,6 +1,6 @@
 import React from 'react'
 import MasterLayout from '../components/MasterLayout'
-import ContentBuilder from '../helpers/ContentBuilder';
+import ContentBuilder from '../helpers/ContentBuilderProfile';
 
 export default function people() {
 
