@@ -37,15 +37,6 @@ export default function MasterLayout({ children, title }) {
                 <meta property="type" content="website"/>
                 <meta property="site_name" content="Commercial Project Management Solutions | Nelgara Pty Ltd"/>
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"/>
-                <!-- Global site tag (gtag.js) - Google Analytics -->
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-205606572-1"></script>
-                <script>
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-
-                  gtag('config', 'UA-205606572-1');
-                </script>
 
             </Helmet>
             <Navbar />
