@@ -19,6 +19,5 @@ module.exports = {
       }
     },
     'gatsby-plugin-sitemap',
-    'gatsby-plugin-fontawesome-css'
   ],
 }

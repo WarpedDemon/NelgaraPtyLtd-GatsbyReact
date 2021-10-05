@@ -1,4 +1,5 @@
 import React from 'react'
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 export default function Hamburger() {
 
@@ -33,7 +34,7 @@ export default function Hamburger() {
 
     return (
         <div onKeyDown={ToggleMenu} onClick={ToggleMenu} tabIndex={-1} role="button" aria-label="Navigation drop down button">
-            <span id="Hamburger" className="fa fa-bars" ></span>
+            <GiHamburgerMenu id="Hamburger"></GiHamburgerMenu>
         </div>
     )
 }

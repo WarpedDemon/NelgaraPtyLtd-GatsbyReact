@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Hamburger from './Hamburger';
+import Hamburger from './Hamburger'
+import {BsLightbulbFill} from 'react-icons/bs'
 
 export default function Navbar() {
     var currentlyDark = false;
@@ -78,7 +79,7 @@ export default function Navbar() {
     return (
         <div id="Header">
             <Link to="/"><img src="https://www.nelgara.com.au/img/logo.png" id="Logo" alt="logo.png"></img></Link>
-            <span role="button" tabIndex={-2} aria-label="Light switch" onKeyDown={OnLightClick} onClick={OnLightClick} id="LightSwitch" className=""><span className="fas fa-lightbulb"></span></span>
+            <span role="button" tabIndex={-2} aria-label="Light switch" onKeyDown={OnLightClick} onClick={OnLightClick} id="LightSwitch" className=""><BsLightbulbFill></BsLightbulbFill></span>
             <h2 id="Title" className=""><Link to="/" id="Title_Text" className=""> Nelgara Pty Ltd </Link></h2>
             <div id="Nav_Container" className="">
                 <Hamburger />
