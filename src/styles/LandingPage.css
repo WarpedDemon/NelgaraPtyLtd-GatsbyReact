@@ -266,9 +266,9 @@ body { background-color: #fffdfa; }
   background-color: white !important;
   border-color: black !important;
 }
-#LightSwitch span {
-  margin-top: 18px;
-  margin-left: 19px;
+#LightSwitch svg {
+  margin-top: 17px;
+  margin-left: 17px;
 }
 #LightSwitch:hover {
   background-color: black;
