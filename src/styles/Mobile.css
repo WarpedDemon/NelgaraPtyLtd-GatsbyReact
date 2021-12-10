@@ -3,6 +3,9 @@
     width:0;
   }
 
+  #gatsby-focus-wrapper > div > div.mainContent > div > div > p > iframe{
+    width: 75vw;
+  }
   .spacer{
     height: 0px;
   }
