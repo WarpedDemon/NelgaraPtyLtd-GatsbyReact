@@ -134,7 +134,7 @@ export default function people() {
     ];
 
     const peopleContentTitles = ["Nicholas (Nick) Noonan", "Kathryn (Kate) Noonan", "Peter (Pete) Hooks", "Paul Brown"];
-    const peopleContentImgs = ["../img/nicknoonan.jpg", "../img/defaultAccountIcon.jpg", "../img/peterhooks.png", "../img/paulbrown.jpg"];
+    const peopleContentImgs = ["../img/nicknoonan.jpg", "../img/1550793732652.jfif", "../img/IMG_6170[5973].jpg", "../img/paulbrown.jpg"];
 
     return (
     <MasterLayout title="Our Team">
