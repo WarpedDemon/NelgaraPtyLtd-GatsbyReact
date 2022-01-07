@@ -127,7 +127,6 @@ body { background-color: #fffdfa; }
 
 .MainContentClass img{
   color: black;
-  margin-top: 7vh;
   border-radius: 5px;
   display: inline-block;
   height: 40vh;
@@ -218,7 +217,6 @@ body { background-color: #fffdfa; }
   color: #eeeeee;
   font-size: 3vmax;
   padding: 15px;
-  background-color: rgba(0,0,0,0.65);
 }
 
 #Logo {
@@ -336,9 +334,7 @@ body { background-color: #fffdfa; }
 
 }
 #Nav a:hover {
-  border-bottom: 4px solid black;
   background-color: rgba(205,205,205,1);
-  border-radius: 15px;
 }
 #Nav a {
   transition: all 0.3s ease;
