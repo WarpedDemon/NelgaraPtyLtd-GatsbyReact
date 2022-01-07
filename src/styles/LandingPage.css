@@ -3,15 +3,19 @@ html { overflow-x: hidden;}
 body { background-color: #fffdfa; }
 
 .Brown{
-  min-height: 85vh;
+  min-height: 105vh;
 }
 
 .Hooks{
   min-height: 65vh;
 }
 
-.Noonan{
-  min-height: 80vh;
+.Nicholas{
+  min-height: 85vh;
+}
+
+.Kate{
+  min-height: 100vh;
 }
 
 .spacer{
