@@ -37,7 +37,6 @@ body { background-color: #fffdfa; }
   flex-basis: 33.3%;
   flex-direction: row;
   height: 30px;
-
 }
 
 .column{
@@ -51,11 +50,13 @@ body { background-color: #fffdfa; }
   font-size: 12px;
   font-weight: bold;
 }
+
 .FooterImage {
   margin-top: 8px;
   width: 50px;
   height: 50px;
 }
+
 #FooterText{
   padding-top: 15px;
   padding-left: 15px;
@@ -103,9 +104,11 @@ body { background-color: #fffdfa; }
   border: 1px solid black;
   transition: all 0.4s ease;
 }
+
 .scrollButton:hover {
   background-color: rgba(0,0,0,0);
 }
+
 .scrollButton span {
   color: white;
   font-size: 16px;
@@ -171,8 +174,6 @@ body { background-color: #fffdfa; }
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
 .MainContentClass p {
   max-width: 50vw;
 }
@@ -189,7 +190,6 @@ body { background-color: #fffdfa; }
 }
 
 #Banner {
-
   width: 100vw;
   min-height: 200px;
   top: 150px;
@@ -199,17 +199,22 @@ body { background-color: #fffdfa; }
   position: relative;
   z-index: 10;
 }
+
 #slider {
   overflow: hidden;
   z-index: 10;
 }
+
 .BackgroundImage {
   position: absolute;
   z-index: -1;
 }
+
 #ImgOne {
 }
+
 #BannerId {
+  text-shadow: 3px 0px black !important;
   z-index: 1;
   position: absolute;
   margin-top: 40vh;
@@ -232,7 +237,6 @@ body { background-color: #fffdfa; }
 }
 
 #Header {
-
   width: 100vw;
   height: 100px;
   position: absolute;
@@ -241,12 +245,13 @@ body { background-color: #fffdfa; }
   background-repeat: repeat;
   z-index: 11;
 }
+
 .HeaderDark {
   background-color: #1b1b1b !important;
   z-index: 10 !important;
   color: white !important;
-
 }
+
 /* Controls turning the nav bar components to dark mode. */
 .ServicesDark,
 .AboutDark,
@@ -257,6 +262,7 @@ body { background-color: #fffdfa; }
   background-color: rgba(0,0,0,0.5) !important;
 
 }
+
 .LightSwitchDark:hover {
   color: white !important;
   background-color: black !important;
@@ -268,14 +274,17 @@ body { background-color: #fffdfa; }
   background-color: white !important;
   border-color: black !important;
 }
+
 #LightSwitch svg {
   margin-top: 17px;
   margin-left: 17px;
 }
+
 #LightSwitch:hover {
   background-color: black;
   color: white;
 }
+
 #LightSwitch {
   transition: all 0.3s ease;
   border-radius: 50px;
@@ -290,12 +299,15 @@ body { background-color: #fffdfa; }
 .Nav_ContainerDark {
 
 }
+
 .HamburgerDark {
   color: white !important;
 }
+
 .Title_TextDark {
   color: white !important;
 }
+
 #Title {
   color:black;
   font-size: 24px;
@@ -306,15 +318,18 @@ body { background-color: #fffdfa; }
   margin-left: 25px;
   text-decoration: none;
 }
+
 #Title_Text {
   color:black;
   font-size: 3vmax;
   text-decoration: none;
 }
+
 #Hamburger {
   color: black;
   display: none;
 }
+
 #Nav_Container{
   display: none;
 }
@@ -322,6 +337,7 @@ body { background-color: #fffdfa; }
 .NavDark {
   color: white !important;
 }
+
 #Nav {
   height: 30vmax;
   width: auto;
@@ -333,9 +349,11 @@ body { background-color: #fffdfa; }
   z-index: 11;
 
 }
+
 #Nav a:hover {
   background-color: rgba(205,205,205,1);
 }
+
 #Nav a {
   transition: all 0.3s ease;
   display: inline-block;
@@ -346,10 +364,12 @@ body { background-color: #fffdfa; }
   text-decoration: none;
   color: inherit;
 }
+
 #Nav a li p {
   text-align:center;
   padding-top: 18px;
 }
+
 #Nav a li {
   display: inline-block;
   list-style: none;
