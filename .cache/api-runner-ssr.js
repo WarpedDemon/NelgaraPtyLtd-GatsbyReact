@@ -1,6 +1,6 @@
 var plugins = [{
       name: 'gatsby-plugin-sitemap',
-      plugin: require('C:/Users/AuraG/Desktop/Websites/NelgaraPtyLtd-GatsbyReact/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('D:/EndProject/NelgaraPtyLtd-GatsbyReact/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[],"output":"/sitemap","createLinkInHead":true,"entryLimit":45000,"query":"{ site { siteMetadata { siteUrl } } allSitePage { nodes { path } } }","excludes":[]},
     }]
 /* global plugins */

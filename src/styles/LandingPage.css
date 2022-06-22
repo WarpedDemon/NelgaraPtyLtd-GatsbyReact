@@ -57,6 +57,21 @@ body { background-color: #fffdfa; }
   height: 50px;
 }
 
+.FooterDark {
+  /* position: absolute; */
+  display:flex;
+  flex-wrap: wrap;
+  background-color: black!important;
+  height: auto;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  border-top: 1.5px solid white;
+}
+
 #FooterText{
   padding-top: 15px;
   padding-left: 15px;
