@@ -1,19 +1,29 @@
-import React from 'react'
-import Navbar from "./Navbar"
-import Footer from "./Footer"
-import Banner from "./Banner"
+import React from 'react';
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import Banner from "./Banner";
 import {Helmet} from "react-helmet";
 
-
-import "../styles/LandingPage.css"
-import "../styles/Mobile.css"
-import "../styles/Extras.css"
-import "../styles/animate.css"
+import "../styles/theme.css";
+import "../styles/LandingPage.css";
+import "../styles/Mobile.css";
+import "../styles/Extras.css";
+import "../styles/animate.css";
 
 
 
 export default function MasterLayout({ children, title }) {
-
+    
+    function AssessTheme() {
+        if (typeof window !== 'undefined') {
+            var storedTheme = localStorage.getItem('theme');
+            if (storedTheme) {
+                document.documentElement.setAttribute('data-theme', storedTheme);
+            }
+        }
+    }
+    
+    AssessTheme();
     return (
 
         <div className="MasterLayout">
