@@ -1,14 +1,14 @@
-import React from 'react';
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Banner from "./Banner";
+import React from 'react'
+import Navbar from "./Navbar"
+import Footer from "./Footer"
+import Banner from "./Banner"
 import {Helmet} from "react-helmet";
 
-import "../styles/theme.css";
-import "../styles/LandingPage.css";
-import "../styles/Mobile.css";
-import "../styles/Extras.css";
-import "../styles/animate.css";
+import "../styles/theme.css"
+import "../styles/LandingPage.css"
+import "../styles/Mobile.css"
+import "../styles/Extras.css"
+import "../styles/animate.css"
 
 
 
