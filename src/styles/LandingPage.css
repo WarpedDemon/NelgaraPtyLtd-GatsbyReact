@@ -46,7 +46,7 @@ body { background-color: #fffdfa; }
 }
 
 .copyrightText {
-  color: #111111;
+  color: var(--text-color);
   font-size: 12px;
   font-weight: bold;
 }
@@ -57,31 +57,16 @@ body { background-color: #fffdfa; }
   height: 50px;
 }
 
-.FooterDark {
-  /* position: absolute; */
-  display:flex;
-  flex-wrap: wrap;
-  background-color: black!important;
-  height: auto;
-  padding: 10px;
-  width: 100%;
-  height: auto;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  border-top: 1.5px solid white;
-}
-
 #FooterText{
   padding-top: 15px;
   padding-left: 15px;
   width:250px;
   height:250px;
-  color:black;
+  color: var(--text-color);
 }
 
 #FooterText a{
-  color:black;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -89,7 +74,8 @@ body { background-color: #fffdfa; }
   /* position: absolute; */
   display:flex;
   flex-wrap: wrap;
-  background-color: #f6f4f5;
+  background-color: var(--background-color);
+  color: var(--text-color);
   height: auto;
   padding: 10px;
   width: 100%;
@@ -97,7 +83,7 @@ body { background-color: #fffdfa; }
   bottom: 0;
   left: 0;
   text-align: center;
-  border-top: 1.5px solid black;
+  border-top: 1.5px solid var(--i-background-color);
 }
 
 #Links {
@@ -256,39 +242,10 @@ body { background-color: #fffdfa; }
   height: 100px;
   position: absolute;
   top: 0;
-  background-image: #EFE8D8;
-  background-repeat: repeat;
+  background-color: var(--background-color);
   z-index: 11;
 }
 
-.HeaderDark {
-  background-color: #1b1b1b !important;
-  z-index: 10 !important;
-  color: white !important;
-}
-
-/* Controls turning the nav bar components to dark mode. */
-.ServicesDark,
-.AboutDark,
-.PeopleDark,
-.IndustriesDark {
-  background-color: #141414 !important;
-  color: #f3f3f3 !important;
-  background-color: rgba(0,0,0,0.5) !important;
-
-}
-
-.LightSwitchDark:hover {
-  color: white !important;
-  background-color: black !important;
-  border-color: white !important;
-}
-
-.LightSwitchDark {
-  color: black !important;
-  background-color: white !important;
-  border-color: black !important;
-}
 
 #LightSwitch svg {
   margin-top: 17px;
@@ -296,14 +253,14 @@ body { background-color: #fffdfa; }
 }
 
 #LightSwitch:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--i-background-color);
+  color: var(--i-text-color);
 }
 
 #LightSwitch {
   transition: all 0.3s ease;
   border-radius: 50px;
-  border: 2px solid black;
+  border: 2px solid var(--text-color);
   width:50px;
   height:50px;
   float: left;
@@ -311,20 +268,9 @@ body { background-color: #fffdfa; }
   margin-left: 25px;
 }
 
-.Nav_ContainerDark {
-
-}
-
-.HamburgerDark {
-  color: white !important;
-}
-
-.Title_TextDark {
-  color: white !important;
-}
 
 #Title {
-  color:black;
+  color: var(--text-color);
   font-size: 24px;
   text-align: center;
   display: inline-block;
@@ -335,22 +281,25 @@ body { background-color: #fffdfa; }
 }
 
 #Title_Text {
-  color:black;
+  color: var(--text-color);
   font-size: 3vmax;
   text-decoration: none;
 }
 
 #Hamburger {
-  color: black;
+  color: var(--text-color);
   display: none;
+}
+#LightSwitch svg {
+  color: var(--text-color);
+  border-color: var(--text-color);
+}
+#LightSwitch:hover svg {
+  color: var(--i-text-color);
 }
 
 #Nav_Container{
   display: none;
-}
-
-.NavDark {
-  color: white !important;
 }
 
 #Nav {
@@ -360,24 +309,25 @@ body { background-color: #fffdfa; }
   float: right;
   margin-right: 75px;
   margin-top: 25px;
-  color: black;
+  color: var(--text-color);
   z-index: 11;
 
 }
 
 #Nav a:hover {
-  background-color: rgba(205,205,205,1);
+  background-color: var(--i-background-color);
+  color: var(--i-text-color);
 }
 
 #Nav a {
   transition: all 0.3s ease;
   display: inline-block;
   height: 50px;
-  background-color: rgba(255,255,255,0.75);
+  background-color: var(--background-color);
   padding-left: 5vw;
   padding-right: 5vw;
   text-decoration: none;
-  color: inherit;
+  color: var(--text-color);
 }
 
 #Nav a li p {
